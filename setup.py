@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'test_node = scripts.test_node:main'
+            'restart_ros_control = ur_utils_ros2_py.restart_ros_control:main',
+            'test_node = ur_utils_ros2_py.test_node:main'
         ],
     },
 )
